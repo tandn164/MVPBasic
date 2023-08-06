@@ -1,0 +1,6 @@
+framework module Pods_MVPBasic {
+  umbrella header "Pods-MVPBasic-umbrella.h"
+
+  export *
+  module * { export * }
+}
