@@ -1,0 +1,14 @@
+/* 
+  Localizable.strings
+  MVPBasic
+
+  Created by Nguyễn Đức Tân on 07/08/2023.
+  
+*/
+
+"tabTop" = "Top";
+"tabSetting" = "Setting";
+"OK" = "OK";
+"Error" = "Error";
+"hyphenCharacter" = "-";
+"noCharacterString" = "";

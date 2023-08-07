@@ -6,5 +6,8 @@ target 'MVPBasic' do
   use_frameworks!
 
   # Pods for MVPBasic
+  pod 'Alamofire'
+  pod 'SDWebImage'
+  pod 'SwiftGen', '~> 6.0'
 
 end
