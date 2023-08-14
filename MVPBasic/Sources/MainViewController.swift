@@ -11,5 +11,8 @@ class MainViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         view.backgroundColor = .white
+        PhotoApi(.getListPhoto, params: nil).send { data, error in
+            print(data)
+        }
     }
 }

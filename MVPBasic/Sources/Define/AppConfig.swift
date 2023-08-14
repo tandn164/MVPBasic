@@ -8,5 +8,10 @@
 import Foundation
 
 struct AppConfig {
-    static var baseUrl = "https://picsum.photos/v2"
+    public static var baseUrl: String {
+        guard let baseUrl = Bundle.main.object(forInfoDictionaryKey: "base_url") as? String else {
+            fatalError()
+        }
+        return baseUrl
+    }
 }
