@@ -32,9 +32,20 @@
 		4DA369AE2A88748900DCEB1F /* AppShareData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DA369982A88748900DCEB1F /* AppShareData.swift */; };
 		4DA369AF2A88748900DCEB1F /* NumberUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DA369992A88748900DCEB1F /* NumberUtil.swift */; };
 		4DA369B02A88748900DCEB1F /* ApplicationUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DA3699A2A88748900DCEB1F /* ApplicationUtil.swift */; };
-		4DA369B42A8874F400DCEB1F /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DA369B32A8874F400DCEB1F /* MainViewController.swift */; };
 		4DB1C6D42A8A13550011C8DD /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DB1C6D22A8A13550011C8DD /* API.swift */; };
 		4DB1C6D52A8A13550011C8DD /* PhotoAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DB1C6D32A8A13550011C8DD /* PhotoAPI.swift */; };
+		4DB1C7362A8B00EF0011C8DD /* TopCollectionDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DB1C7262A8B00EF0011C8DD /* TopCollectionDataSource.swift */; };
+		4DB1C7372A8B00EF0011C8DD /* TopViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DB1C7282A8B00EF0011C8DD /* TopViewModel.swift */; };
+		4DB1C7382A8B00EF0011C8DD /* TopViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DB1C7292A8B00EF0011C8DD /* TopViewController.swift */; };
+		4DB1C7392A8B00EF0011C8DD /* Top.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4DB1C72A2A8B00EF0011C8DD /* Top.storyboard */; };
+		4DB1C73A2A8B00EF0011C8DD /* PhotoCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4DB1C72C2A8B00EF0011C8DD /* PhotoCollectionViewCell.xib */; };
+		4DB1C73B2A8B00EF0011C8DD /* PhotoCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DB1C72D2A8B00EF0011C8DD /* PhotoCollectionViewCell.swift */; };
+		4DB1C73C2A8B00EF0011C8DD /* SettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DB1C72F2A8B00EF0011C8DD /* SettingViewController.swift */; };
+		4DB1C73D2A8B00EF0011C8DD /* Setting.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4DB1C7302A8B00EF0011C8DD /* Setting.storyboard */; };
+		4DB1C73E2A8B00EF0011C8DD /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DB1C7322A8B00EF0011C8DD /* BaseViewController.swift */; };
+		4DB1C73F2A8B00EF0011C8DD /* BaseNavigationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DB1C7332A8B00EF0011C8DD /* BaseNavigationViewController.swift */; };
+		4DB1C7402A8B00EF0011C8DD /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DB1C7342A8B00EF0011C8DD /* MainViewController.swift */; };
+		4DB1C7412A8B00EF0011C8DD /* BaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DB1C7352A8B00EF0011C8DD /* BaseView.swift */; };
 		4DCA25042A7F9D4D0023DBA6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DCA25032A7F9D4D0023DBA6 /* AppDelegate.swift */; };
 		4DCA250D2A7F9D4F0023DBA6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4DCA250C2A7F9D4F0023DBA6 /* Assets.xcassets */; };
 		4DCA25102A7F9D4F0023DBA6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4DCA250E2A7F9D4F0023DBA6 /* LaunchScreen.storyboard */; };
@@ -69,9 +80,20 @@
 		4DA369982A88748900DCEB1F /* AppShareData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppShareData.swift; sourceTree = "<group>"; };
 		4DA369992A88748900DCEB1F /* NumberUtil.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NumberUtil.swift; sourceTree = "<group>"; };
 		4DA3699A2A88748900DCEB1F /* ApplicationUtil.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApplicationUtil.swift; sourceTree = "<group>"; };
-		4DA369B32A8874F400DCEB1F /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		4DB1C6D22A8A13550011C8DD /* API.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
 		4DB1C6D32A8A13550011C8DD /* PhotoAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoAPI.swift; sourceTree = "<group>"; };
+		4DB1C7262A8B00EF0011C8DD /* TopCollectionDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TopCollectionDataSource.swift; sourceTree = "<group>"; };
+		4DB1C7282A8B00EF0011C8DD /* TopViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TopViewModel.swift; sourceTree = "<group>"; };
+		4DB1C7292A8B00EF0011C8DD /* TopViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TopViewController.swift; sourceTree = "<group>"; };
+		4DB1C72A2A8B00EF0011C8DD /* Top.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Top.storyboard; sourceTree = "<group>"; };
+		4DB1C72C2A8B00EF0011C8DD /* PhotoCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PhotoCollectionViewCell.xib; sourceTree = "<group>"; };
+		4DB1C72D2A8B00EF0011C8DD /* PhotoCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoCollectionViewCell.swift; sourceTree = "<group>"; };
+		4DB1C72F2A8B00EF0011C8DD /* SettingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingViewController.swift; sourceTree = "<group>"; };
+		4DB1C7302A8B00EF0011C8DD /* Setting.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Setting.storyboard; sourceTree = "<group>"; };
+		4DB1C7322A8B00EF0011C8DD /* BaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		4DB1C7332A8B00EF0011C8DD /* BaseNavigationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseNavigationViewController.swift; sourceTree = "<group>"; };
+		4DB1C7342A8B00EF0011C8DD /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		4DB1C7352A8B00EF0011C8DD /* BaseView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseView.swift; sourceTree = "<group>"; };
 		4DCA25002A7F9D4D0023DBA6 /* MVPBasic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MVPBasic.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4DCA25032A7F9D4D0023DBA6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4DCA250C2A7F9D4F0023DBA6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -128,12 +150,12 @@
 		4DA369602A88719400DCEB1F /* Sources */ = {
 			isa = PBXGroup;
 			children = (
+				4DB1C7232A8B00EF0011C8DD /* Screens */,
 				4DB1C6D12A8A13550011C8DD /* Networks */,
 				4DA369822A88748900DCEB1F /* Controls */,
 				4DA3698F2A88748900DCEB1F /* Define */,
 				4DA369882A88748900DCEB1F /* Extensions */,
 				4DA369942A88748900DCEB1F /* Helpers */,
-				4DA369B32A8874F400DCEB1F /* MainViewController.swift */,
 			);
 			path = Sources;
 			sourceTree = "<group>";
@@ -208,6 +230,73 @@
 				4DB1C6D32A8A13550011C8DD /* PhotoAPI.swift */,
 			);
 			path = Networks;
+			sourceTree = "<group>";
+		};
+		4DB1C7232A8B00EF0011C8DD /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				4DB1C7242A8B00EF0011C8DD /* Top */,
+				4DB1C72E2A8B00EF0011C8DD /* Setting */,
+				4DB1C7312A8B00EF0011C8DD /* Base */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		4DB1C7242A8B00EF0011C8DD /* Top */ = {
+			isa = PBXGroup;
+			children = (
+				4DB1C7252A8B00EF0011C8DD /* DataSources */,
+				4DB1C7272A8B00EF0011C8DD /* ViewModels */,
+				4DB1C7292A8B00EF0011C8DD /* TopViewController.swift */,
+				4DB1C72A2A8B00EF0011C8DD /* Top.storyboard */,
+				4DB1C72B2A8B00EF0011C8DD /* Views */,
+			);
+			path = Top;
+			sourceTree = "<group>";
+		};
+		4DB1C7252A8B00EF0011C8DD /* DataSources */ = {
+			isa = PBXGroup;
+			children = (
+				4DB1C7262A8B00EF0011C8DD /* TopCollectionDataSource.swift */,
+			);
+			path = DataSources;
+			sourceTree = "<group>";
+		};
+		4DB1C7272A8B00EF0011C8DD /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				4DB1C7282A8B00EF0011C8DD /* TopViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		4DB1C72B2A8B00EF0011C8DD /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				4DB1C72C2A8B00EF0011C8DD /* PhotoCollectionViewCell.xib */,
+				4DB1C72D2A8B00EF0011C8DD /* PhotoCollectionViewCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		4DB1C72E2A8B00EF0011C8DD /* Setting */ = {
+			isa = PBXGroup;
+			children = (
+				4DB1C72F2A8B00EF0011C8DD /* SettingViewController.swift */,
+				4DB1C7302A8B00EF0011C8DD /* Setting.storyboard */,
+			);
+			path = Setting;
+			sourceTree = "<group>";
+		};
+		4DB1C7312A8B00EF0011C8DD /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				4DB1C7322A8B00EF0011C8DD /* BaseViewController.swift */,
+				4DB1C7332A8B00EF0011C8DD /* BaseNavigationViewController.swift */,
+				4DB1C7342A8B00EF0011C8DD /* MainViewController.swift */,
+				4DB1C7352A8B00EF0011C8DD /* BaseView.swift */,
+			);
+			path = Base;
 			sourceTree = "<group>";
 		};
 		4DCA24F72A7F9D4D0023DBA6 = {
@@ -326,7 +415,10 @@
 				4D0CC2BE2A826E760054D939 /* Production.xcconfig in Resources */,
 				4DCA25102A7F9D4F0023DBA6 /* LaunchScreen.storyboard in Resources */,
 				4D0CC2AF2A8127220054D939 /* Localizable.strings in Resources */,
+				4DB1C73D2A8B00EF0011C8DD /* Setting.storyboard in Resources */,
+				4DB1C73A2A8B00EF0011C8DD /* PhotoCollectionViewCell.xib in Resources */,
 				4DCA250D2A7F9D4F0023DBA6 /* Assets.xcassets in Resources */,
+				4DB1C7392A8B00EF0011C8DD /* Top.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -397,13 +489,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4DB1C7362A8B00EF0011C8DD /* TopCollectionDataSource.swift in Sources */,
 				4DA369A22A88748900DCEB1F /* UIImageView+.swift in Sources */,
 				4DA369A82A88748900DCEB1F /* Storyboard.swift in Sources */,
+				4DB1C7412A8B00EF0011C8DD /* BaseView.swift in Sources */,
+				4DB1C73F2A8B00EF0011C8DD /* BaseNavigationViewController.swift in Sources */,
 				4DA369AF2A88748900DCEB1F /* NumberUtil.swift in Sources */,
+				4DB1C73E2A8B00EF0011C8DD /* BaseViewController.swift in Sources */,
+				4DB1C7372A8B00EF0011C8DD /* TopViewModel.swift in Sources */,
+				4DB1C73C2A8B00EF0011C8DD /* SettingViewController.swift in Sources */,
 				4DB1C6D52A8A13550011C8DD /* PhotoAPI.swift in Sources */,
 				4DA369AD2A88748900DCEB1F /* ViewManager.swift in Sources */,
 				4DA369A12A88748900DCEB1F /* UIFont+.swift in Sources */,
 				4DA369A62A88748900DCEB1F /* UIApplication+.swift in Sources */,
+				4DB1C7402A8B00EF0011C8DD /* MainViewController.swift in Sources */,
 				4DA369A42A88748900DCEB1F /* UICollectionView+.swift in Sources */,
 				4DA369A52A88748900DCEB1F /* Date+.swift in Sources */,
 				4DA369AE2A88748900DCEB1F /* AppShareData.swift in Sources */,
@@ -412,9 +511,10 @@
 				4DA3699F2A88748900DCEB1F /* LoadingCircleView.swift in Sources */,
 				4DA369AA2A88748900DCEB1F /* AppConfig.swift in Sources */,
 				4DA369A02A88748900DCEB1F /* LoadingHud.swift in Sources */,
-				4DA369B42A8874F400DCEB1F /* MainViewController.swift in Sources */,
+				4DB1C73B2A8B00EF0011C8DD /* PhotoCollectionViewCell.swift in Sources */,
 				4DA369A92A88748900DCEB1F /* EnumDefine.swift in Sources */,
 				4DA369AB2A88748900DCEB1F /* LocalizableString.swift in Sources */,
+				4DB1C7382A8B00EF0011C8DD /* TopViewController.swift in Sources */,
 				4DA369AC2A88748900DCEB1F /* Log.swift in Sources */,
 				4DCA25042A7F9D4D0023DBA6 /* AppDelegate.swift in Sources */,
 				4DA3699E2A88748900DCEB1F /* BouncyLayout.swift in Sources */,
